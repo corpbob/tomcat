@@ -2,7 +2,7 @@
 # tasks file for tomcat
 - name: Echo hello world
   shell: |
-    echo "hello world"
+    echo "hello world 2"
   register: hello_reg
  
 - debug:
