@@ -1,0 +1,9 @@
+---
+# tasks file for tomcat
+- name: Echo hello world
+  shell: |
+    echo "hello world"
+  register: hello_reg
+ 
+- debug:
+    var: hello_reg.stdout
